@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Scan to PDF</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/tools.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">
+
+<i class="fa-solid fa-camera"></i>
+
+PDF Master
+
+</div>
+
+</header>
+
+<section class="tool-hero">
+
+<h1>Scan to PDF</h1>
+
+<p>
+
+Scan documents using your camera and convert them into PDF.
+
+</p>
+
+</section>
+
+<section class="upload-section">
+
+<div class="drop-area">
+
+<i class="fa-solid fa-camera"></i>
+
+<h2>Scan Document</h2>
+
+<p>Use Camera or Select Image</p>
+
+<button id="browseBtn" class="pdf-btn">
+
+Open Camera
+
+</button>
+
+<input
+type="file"
+id="upload"
+accept="image/*"
+capture="environment"
+multiple
+hidden>
+
+</div>
+
+</section>
+
+<section id="fileList">
+
+<div class="empty">
+
+No Images Selected
+
+</div>
+
+</section>
+
+<section class="pdf-action">
+
+<button id="createBtn" class="pdf-btn">
+
+<i class="fa-solid fa-file-pdf"></i>
+
+Create PDF
+
+</button>
+
+</section>
+
+<script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+
+<script src="js/scan-to-pdf.js"></script>
+
+</body>
+
+</html>

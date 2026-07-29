@@ -1,0 +1,732 @@
+/* ===========================
+   TOOL PAGE
+=========================== */
+
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:#f7f7f7;
+    color:#333;
+}
+
+.tool-hero{
+    text-align:center;
+    padding:70px 20px 40px;
+}
+
+.tool-hero h1{
+    font-size:48px;
+    color:#222;
+    margin-bottom:15px;
+    font-weight:700;
+}
+
+.tool-hero p{
+    font-size:18px;
+    color:#666;
+    max-width:700px;
+    margin:auto;
+}
+
+/* ===========================
+UPLOAD
+=========================== */
+
+.upload-section{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+
+.drop-area{
+
+    width:100%;
+    max-width:800px;
+
+    background:#fff;
+
+    border:3px dashed #d8d8d8;
+
+    border-radius:18px;
+
+    padding:70px 30px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.drop-area:hover{
+
+    border-color:#e5322d;
+
+    background:#fffafa;
+
+}
+
+.drop-area i{
+
+    font-size:70px;
+
+    color:#e5322d;
+
+    margin-bottom:20px;
+
+}
+
+.drop-area h2{
+
+    font-size:34px;
+
+    margin-bottom:10px;
+
+}
+
+.drop-area p{
+
+    color:#777;
+
+    margin-bottom:30px;
+
+}
+
+.drop-area button{
+
+    background:#e5322d;
+
+    color:#fff;
+
+    border:none;
+
+    padding:18px 45px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.drop-area button:hover{
+
+    background:#c92824;
+
+}
+
+/* ===========================
+FILES
+=========================== */
+
+.files{
+
+    max-width:900px;
+
+    margin:50px auto;
+
+    padding:0 20px;
+
+}
+
+.files h2{
+
+    margin-bottom:25px;
+
+    font-size:28px;
+
+}
+
+#fileList{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+.file-card{
+
+    background:#fff;
+
+    border-radius:12px;
+
+    padding:18px 22px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    border:1px solid #e7e7e7;
+
+    transition:.3s;
+
+}
+
+.file-card:hover{
+
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+
+}
+
+.file-left{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+.file-left i{
+
+    color:#e5322d;
+
+    font-size:28px;
+
+}
+
+.file-name{
+
+    font-weight:600;
+
+}
+
+.file-size{
+
+    font-size:14px;
+
+    color:#777;
+
+}
+
+.remove{
+
+    width:40px;
+
+    height:40px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#ffe8e8;
+
+    color:#e5322d;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.remove:hover{
+
+    background:#e5322d;
+
+    color:#fff;
+
+}
+
+.empty{
+
+    background:#fff;
+
+    padding:40px;
+
+    border-radius:12px;
+
+    text-align:center;
+
+    color:#999;
+
+    border:2px dashed #ddd;
+
+}
+
+/* ===========================
+MERGE BUTTON
+=========================== */
+
+.action{
+
+    text-align:center;
+
+    margin:60px 0;
+
+}
+
+#mergeBtn{
+
+    background:#e5322d;
+
+    color:#fff;
+
+    border:none;
+
+    padding:20px 70px;
+
+    font-size:20px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+#mergeBtn:hover{
+
+    background:#c92824;
+
+    transform:translateY(-3px);
+
+}
+
+/* ===========================
+FEATURES
+=========================== */
+
+.tool-info{
+
+    max-width:1200px;
+
+    margin:80px auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+    padding:0 20px;
+
+}
+
+.info-card{
+
+    background:#fff;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    padding:40px 25px;
+
+    border:1px solid #ececec;
+
+    transition:.3s;
+
+}
+
+.info-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.08);
+
+}
+
+.info-card i{
+
+    font-size:42px;
+
+    color:#e5322d;
+
+    margin-bottom:20px;
+
+}
+
+.info-card h3{
+
+    margin-bottom:10px;
+
+}
+
+.info-card p{
+
+    color:#777;
+
+}
+
+/* ===========================
+FOOTER
+=========================== */
+
+footer{
+
+    margin-top:80px;
+
+    background:#222;
+
+    color:#fff;
+
+    text-align:center;
+
+    padding:25px;
+
+}
+
+/* ===========================
+RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+.tool-info{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.tool-hero h1{
+
+font-size:36px;
+
+}
+
+.drop-area{
+
+padding:45px 20px;
+
+}
+
+.drop-area h2{
+
+font-size:26px;
+
+}
+
+.drop-area button{
+
+width:100%;
+
+}
+
+#mergeBtn{
+
+width:90%;
+
+}
+
+.file-card{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+gap:15px;
+
+}
+
+.remove{
+
+align-self:flex-end;
+
+}
+
+}
+
+#previewContainer{
+
+    max-width:900px;
+
+    margin:40px auto;
+
+}
+
+.image-box{
+
+    background:#fff;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    margin-bottom:25px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+.download-btn{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    background:#E5322D;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    padding:12px 20px;
+
+    border-radius:8px;
+
+    font-weight:600;
+
+}
+
+/* Convert Button */
+
+#convertBtn{
+
+    background:#E5322D;
+    color:#fff;
+    border:none;
+    padding:20px 70px;
+    font-size:20px;
+    font-weight:600;
+    border-radius:10px;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+#convertBtn:hover{
+
+    background:#C62828;
+    transform:translateY(-3px);
+
+}
+
+.action{
+
+    text-align:center;
+    margin:60px 0;
+
+}
+
+.fa-spin{
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/* ===========================
+ROTATE OPTIONS
+=========================== */
+
+.options{
+    max-width:900px;
+    margin:30px auto;
+    padding:0 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.options label{
+    font-size:18px;
+    font-weight:600;
+    color:#333;
+}
+
+.options select{
+
+    width:220px;
+    padding:14px 18px;
+
+    border:2px solid #ddd;
+    border-radius:10px;
+
+    font-size:16px;
+    font-weight:500;
+
+    background:#fff;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+.options select:focus{
+
+    border-color:#E5322D;
+
+    box-shadow:0 0 0 4px rgba(229,50,45,.15);
+
+}
+
+/* ===========================
+ROTATE BUTTON
+=========================== */
+
+.action{
+
+    text-align:center;
+    margin:50px 0;
+
+}
+
+#rotateBtn{
+
+    background:#E5322D;
+    color:#fff;
+
+    border:none;
+
+    padding:18px 60px;
+
+    border-radius:10px;
+
+    font-size:20px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+#rotateBtn:hover{
+
+    background:#C62828;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(229,50,45,.35);
+
+}
+
+#rotateBtn:disabled{
+
+    opacity:.6;
+
+    cursor:not-allowed;
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.options{
+
+flex-direction:column;
+
+}
+
+.options select{
+
+width:100%;
+
+}
+
+#rotateBtn{
+
+width:100%;
+
+}
+
+}
+
+.pdf-options{
+    max-width:700px;
+    margin:30px auto;
+    padding:0 20px;
+}
+
+.pdf-options label{
+    display:block;
+    font-weight:600;
+    margin-bottom:10px;
+}
+
+.pdf-options input{
+    width:100%;
+    padding:15px;
+    border:2px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.pdf-options input:focus{
+    outline:none;
+    border-color:#E5322D;
+}
+
+/* ===== Common PDF Button ===== */
+
+.pdf-btn{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+
+    background:#E5322D;
+    color:#fff;
+
+    border:none;
+    outline:none;
+
+    padding:18px 45px;
+
+    border-radius:12px;
+
+    font-size:18px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:all .3s ease;
+
+}
+
+.pdf-btn:hover{
+
+    background:#C62828;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(229,50,45,.30);
+
+}
+
+.pdf-btn:disabled{
+
+    opacity:.6;
+
+    cursor:not-allowed;
+
+}
+
+.pdf-action{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin:50px 0;
+
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Add Page Numbers</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/tools.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">
+
+<i class="fa-solid fa-list-ol"></i>
+
+PDF Master
+
+</div>
+
+</header>
+
+<section class="tool-hero">
+
+<h1>Add Page Numbers</h1>
+
+<p>
+
+Insert page numbers into your PDF document.
+
+</p>
+
+</section>
+
+<section class="upload-section">
+
+<div class="drop-area" id="dropArea">
+
+<i class="fa-solid fa-file-pdf"></i>
+
+<h2>Select PDF</h2>
+
+<p>or Drag & Drop PDF Here</p>
+
+<button id="browseBtn" class="pdf-btn">
+
+Select PDF
+
+</button>
+
+<input
+type="file"
+id="upload"
+accept=".pdf"
+hidden>
+
+</div>
+
+</section>
+
+<section id="fileList">
+
+<div class="empty">
+
+No PDF Selected
+
+</div>
+
+</section>
+
+<section class="pdf-options">
+
+<label>Position</label>
+
+<select id="position">
+
+<option value="bottom-center">Bottom Center</option>
+
+<option value="bottom-right">Bottom Right</option>
+
+<option value="bottom-left">Bottom Left</option>
+
+<option value="top-center">Top Center</option>
+
+<option value="top-right">Top Right</option>
+
+<option value="top-left">Top Left</option>
+
+</select>
+
+</section>
+
+<section class="pdf-action">
+
+<button id="numberBtn" class="pdf-btn">
+
+<i class="fa-solid fa-list-ol"></i>
+
+Add Page Numbers
+
+</button>
+
+</section>
+
+<script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+
+<script src="js/page-numbers.js"></script>
+
+</body>
+
+</html>

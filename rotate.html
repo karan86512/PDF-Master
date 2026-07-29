@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rotate PDF</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/tools.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">
+
+<i class="fa-solid fa-heart"></i>
+
+PDF Master
+
+</div>
+
+</header>
+
+<section class="tool-hero">
+
+<h1>Rotate PDF</h1>
+
+<p>
+
+Rotate PDF pages easily in your browser.
+
+</p>
+
+</section>
+
+<section class="upload-section">
+
+<div class="drop-area" id="dropArea">
+
+<i class="fa-solid fa-file-pdf"></i>
+
+<h2>Select PDF File</h2>
+
+<p>or Drag & Drop PDF Here</p>
+
+<button id="browseBtn">
+
+Select PDF
+
+</button>
+
+<input
+type="file"
+id="upload"
+accept=".pdf"
+hidden>
+
+</div>
+
+</section>
+
+<section class="options">
+
+<label>Rotation</label>
+
+<select id="rotation">
+
+<option value="90">90° Clockwise</option>
+
+<option value="180">180°</option>
+
+<option value="270">270°</option>
+
+</select>
+
+</section>
+
+<section id="fileList">
+
+<div class="empty">
+
+No PDF Selected
+
+</div>
+
+</section>
+
+<section class="action">
+
+<button id="rotateBtn">
+
+Rotate PDF
+
+</button>
+
+</section>
+
+<script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+<script src="js/rotate.js"></script>
+
+
+
+</body>
+
+</html>

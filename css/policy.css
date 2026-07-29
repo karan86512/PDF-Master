@@ -1,0 +1,997 @@
+/*=========================================
+          SECURITY PAGE
+=========================================*/
+
+.security-hero{
+
+    background:linear-gradient(135deg,#e5322d 0%,#ff6b61 100%);
+
+    padding:110px 20px;
+
+    text-align:center;
+
+    color:#fff;
+
+}
+
+.security-container{
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+.section-tag{
+
+    display:inline-block;
+
+    padding:8px 20px;
+
+    background:rgba(255,255,255,.18);
+
+    backdrop-filter:blur(12px);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    border-radius:50px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    margin-bottom:22px;
+
+}
+
+.security-hero h1{
+
+    font-size:56px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+.hero-text{
+
+    max-width:850px;
+
+    margin:auto;
+
+    font-size:20px;
+
+    line-height:1.9;
+
+    opacity:.95;
+
+}
+
+
+/*=========================================
+          CONTENT
+=========================================*/
+
+.security-content{
+
+    background:#f7f9fc;
+
+    padding:90px 20px;
+
+}
+
+.security-content .security-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+
+    gap:30px;
+
+}
+
+.security-box{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:22px;
+
+    border:1px solid #ececec;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.06);
+
+    transition:.35s;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.security-box::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:100%;
+
+    height:4px;
+
+    background:#E5322D;
+
+    transform:scaleX(0);
+
+    transition:.35s;
+
+}
+
+.security-box:hover::before{
+
+    transform:scaleX(1);
+
+}
+
+.security-box:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 22px 45px rgba(0,0,0,.12);
+
+}
+
+.security-box i{
+
+    width:72px;
+
+    height:72px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:30px;
+
+    color:#fff;
+
+    background:#E5322D;
+
+    border-radius:18px;
+
+    margin-bottom:25px;
+
+    transition:.35s;
+
+}
+
+.security-box:hover i{
+
+    transform:rotate(-8deg) scale(1.08);
+
+}
+
+.security-box h2{
+
+    font-size:28px;
+
+    color:#222;
+
+    margin-bottom:18px;
+
+}
+
+.security-box p{
+
+    color:#666;
+
+    font-size:16px;
+
+    line-height:1.9;
+
+}
+
+.security-box ul{
+
+    margin-top:15px;
+
+    padding-left:20px;
+
+}
+
+.security-box ul li{
+
+    margin-bottom:12px;
+
+    color:#555;
+
+    line-height:1.8;
+
+}
+
+
+/*=========================================
+            CTA
+=========================================*/
+
+.security-cta{
+
+    padding:90px 20px;
+
+    background:#fff;
+
+    text-align:center;
+
+}
+
+.security-cta h2{
+
+    font-size:44px;
+
+    color:#222;
+
+    margin-bottom:20px;
+
+}
+
+.security-cta p{
+
+    max-width:760px;
+
+    margin:0 auto 35px;
+
+    color:#666;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+}
+
+.security-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:16px 38px;
+
+    background:#E5322D;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    border-radius:12px;
+
+    transition:.35s;
+
+}
+
+.security-btn:hover{
+
+    background:#c62828;
+
+    transform:translateY(-4px);
+
+    box-shadow:0 15px 30px rgba(229,50,45,.35);
+
+}
+
+
+/*=========================================
+            RESPONSIVE
+=========================================*/
+
+@media(max-width:992px){
+
+.security-hero h1{
+
+font-size:44px;
+
+}
+
+.hero-text{
+
+font-size:18px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.security-hero{
+
+padding:80px 20px;
+
+}
+
+.security-content{
+
+padding:70px 20px;
+
+}
+
+.security-content .security-container{
+
+grid-template-columns:1fr;
+
+}
+
+.security-box{
+
+padding:28px;
+
+}
+
+.security-box h2{
+
+font-size:24px;
+
+}
+
+.security-cta h2{
+
+font-size:34px;
+
+}
+
+.security-cta p{
+
+font-size:16px;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.security-hero h1{
+
+font-size:32px;
+
+}
+
+.hero-text{
+
+font-size:16px;
+
+}
+
+.security-box i{
+
+width:60px;
+
+height:60px;
+
+font-size:24px;
+
+}
+
+.security-btn{
+
+width:100%;
+
+}
+
+}
+
+/*=========================================
+        POLICY PAGE
+=========================================*/
+
+.policy-content{
+
+    padding:90px 20px;
+
+    background:#f5f7fb;
+
+}
+
+.policy-container{
+
+    max-width:1100px;
+
+    margin:auto;
+
+}
+
+.policy-card{
+
+    background:#fff;
+
+    padding:40px;
+
+    margin-bottom:35px;
+
+    border-radius:22px;
+
+    border:1px solid #ececec;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.06);
+
+    transition:.35s;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.policy-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:5px;
+
+    height:100%;
+
+    background:#E5322D;
+
+    transform:scaleY(0);
+
+    transition:.35s;
+
+    transform-origin:top;
+
+}
+
+.policy-card:hover::before{
+
+    transform:scaleY(1);
+
+}
+
+.policy-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 22px 45px rgba(0,0,0,.12);
+
+}
+
+.policy-card i{
+
+    width:75px;
+
+    height:75px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:30px;
+
+    color:#fff;
+
+    background:#E5322D;
+
+    border-radius:20px;
+
+    margin-bottom:25px;
+
+    transition:.35s;
+
+}
+
+.policy-card:hover i{
+
+    transform:rotate(-8deg) scale(1.08);
+
+}
+
+.policy-card h2{
+
+    font-size:34px;
+
+    color:#222;
+
+    margin-bottom:18px;
+
+    font-weight:700;
+
+}
+
+.policy-card h3{
+
+    font-size:24px;
+
+    color:#333;
+
+    margin:28px 0 15px;
+
+    font-weight:600;
+
+}
+
+.policy-card p{
+
+    font-size:17px;
+
+    color:#666;
+
+    line-height:1.9;
+
+    margin-bottom:18px;
+
+}
+
+.policy-card strong{
+
+    color:#E5322D;
+
+}
+
+.policy-card ul{
+
+    margin:18px 0;
+
+    padding-left:28px;
+
+}
+
+.policy-card ul li{
+
+    margin-bottom:12px;
+
+    color:#555;
+
+    line-height:1.8;
+
+}
+
+.policy-card ul li::marker{
+
+    color:#E5322D;
+
+}
+
+.policy-card a{
+
+    color:#E5322D;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+.policy-card a:hover{
+
+    text-decoration:underline;
+
+}
+
+/*==============================
+      QUOTE / NOTICE BOX
+==============================*/
+
+.notice-box{
+
+    margin-top:25px;
+
+    padding:20px 25px;
+
+    background:#fff5f4;
+
+    border-left:5px solid #E5322D;
+
+    border-radius:12px;
+
+}
+
+.notice-box p{
+
+    margin:0;
+
+    color:#444;
+
+}
+
+/*==============================
+          TABLE
+==============================*/
+
+.policy-table{
+
+    width:100%;
+
+    margin-top:25px;
+
+    border-collapse:collapse;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+}
+
+.policy-table th{
+
+    background:#E5322D;
+
+    color:#fff;
+
+    text-align:left;
+
+    padding:16px;
+
+}
+
+.policy-table td{
+
+    padding:16px;
+
+    border-bottom:1px solid #eee;
+
+}
+
+.policy-table tr:nth-child(even){
+
+    background:#fafafa;
+
+}
+
+/*==============================
+      RESPONSIVE
+==============================*/
+
+@media(max-width:768px){
+
+.policy-content{
+
+padding:60px 15px;
+
+}
+
+.policy-card{
+
+padding:28px 22px;
+
+}
+
+.policy-card h2{
+
+font-size:28px;
+
+}
+
+.policy-card h3{
+
+font-size:21px;
+
+}
+
+.policy-card p{
+
+font-size:16px;
+
+}
+
+.policy-card i{
+
+width:65px;
+
+height:65px;
+
+font-size:26px;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.policy-card{
+
+padding:22px 18px;
+
+border-radius:18px;
+
+}
+
+.policy-card h2{
+
+font-size:24px;
+
+}
+
+.policy-card h3{
+
+font-size:19px;
+
+}
+
+.policy-card p{
+
+font-size:15px;
+
+line-height:1.8;
+
+}
+
+.policy-card ul{
+
+padding-left:22px;
+
+}
+
+.policy-card i{
+
+width:58px;
+
+height:58px;
+
+font-size:22px;
+
+border-radius:16px;
+
+}
+
+}
+
+/* ============================
+   Cookies Policy Page CSS
+============================ */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+
+body{
+
+    background:#f3f7fc;
+    color:#333;
+    line-height:1.8;
+    padding:30px 15px;
+
+}
+
+
+/* Main Container */
+
+.policy-container{
+
+    width:100%;
+    max-width:900px;
+    margin:auto;
+    background:#ffffff;
+    padding:45px;
+    border-radius:25px;
+    box-shadow:0 15px 45px rgba(0,0,0,0.08);
+
+}
+
+
+/* Main Heading */
+
+.policy-container h1{
+
+    text-align:center;
+    font-size:38px;
+    color:#2563eb;
+    margin-bottom:25px;
+    font-weight:700;
+
+}
+
+
+/* Section Heading */
+
+.policy-container h2{
+
+    margin-top:35px;
+    margin-bottom:15px;
+    font-size:24px;
+    color:#111827;
+    border-left:5px solid #2563eb;
+    padding-left:15px;
+
+}
+
+
+/* Sub Heading */
+
+.policy-container h3{
+
+    margin-top:25px;
+    margin-bottom:10px;
+    font-size:20px;
+    color:#2563eb;
+
+}
+
+
+/* Paragraph */
+
+.policy-container p{
+
+    font-size:16px;
+    color:#4b5563;
+    margin-bottom:18px;
+
+}
+
+
+/* Lists */
+
+.policy-container ul{
+
+    margin:15px 0 20px 25px;
+
+}
+
+
+.policy-container li{
+
+    margin-bottom:12px;
+    color:#4b5563;
+    font-size:16px;
+
+}
+
+
+.policy-container li::marker{
+
+    color:#2563eb;
+
+}
+
+
+/* Bold Text */
+
+.policy-container b{
+
+    color:#111827;
+
+}
+
+
+/* Last Updated */
+
+.last-update{
+
+    margin-top:40px;
+    text-align:center;
+    font-size:14px !important;
+    color:#6b7280 !important;
+    border-top:1px solid #e5e7eb;
+    padding-top:20px;
+
+}
+
+
+
+/* Dark Mode */
+
+body.dark{
+
+    background:#111827;
+
+}
+
+
+body.dark .policy-container{
+
+    background:#1f2937;
+    box-shadow:0 15px 45px rgba(0,0,0,0.4);
+
+}
+
+
+body.dark h1{
+
+    color:#60a5fa;
+
+}
+
+
+body.dark h2{
+
+    color:#f9fafb;
+
+}
+
+
+body.dark h3{
+
+    color:#60a5fa;
+
+}
+
+
+body.dark p,
+body.dark li{
+
+    color:#d1d5db;
+
+}
+
+
+body.dark b{
+
+    color:#ffffff;
+
+}
+
+
+
+
+/* Mobile Responsive */
+
+@media(max-width:600px){
+
+    body{
+
+        padding:15px;
+
+    }
+
+
+    .policy-container{
+
+        padding:25px 20px;
+        border-radius:18px;
+
+    }
+
+
+    .policy-container h1{
+
+        font-size:28px;
+
+    }
+
+
+    .policy-container h2{
+
+        font-size:20px;
+        margin-top:25px;
+
+    }
+
+
+    .policy-container h3{
+
+        font-size:18px;
+
+    }
+
+
+    .policy-container p,
+    .policy-container li{
+
+        font-size:15px;
+
+    }
+
+
+}

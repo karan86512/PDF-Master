@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>OCR PDF</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/tools.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">
+
+<i class="fa-solid fa-file-lines"></i>
+
+PDF Master
+
+</div>
+
+</header>
+
+<section class="tool-hero">
+
+<h1>OCR PDF</h1>
+
+<p>
+
+Extract editable text from scanned PDF documents.
+
+</p>
+
+</section>
+
+<section class="upload-section">
+
+<div class="drop-area" id="dropArea">
+
+<i class="fa-solid fa-file-pdf"></i>
+
+<h2>Select PDF</h2>
+
+<p>or Drag & Drop PDF Here</p>
+
+<button id="browseBtn" class="pdf-btn">
+
+Select PDF
+
+</button>
+
+<input
+type="file"
+id="upload"
+accept=".pdf"
+hidden>
+
+</div>
+
+</section>
+
+<section id="fileList">
+
+<div class="empty">
+
+No PDF Selected
+
+</div>
+
+</section>
+
+<section class="pdf-options">
+
+<label>OCR Language</label>
+
+<select id="language">
+
+<option value="eng">English</option>
+
+<option value="hin">Hindi</option>
+
+<option value="mar">Marathi</option>
+
+<option value="fra">French</option>
+
+<option value="deu">German</option>
+
+<option value="spa">Spanish</option>
+
+</select>
+
+</section>
+
+<section class="pdf-action">
+
+<button id="ocrBtn" class="pdf-btn">
+
+<i class="fa-solid fa-file-lines"></i>
+
+Extract Text
+
+</button>
+
+</section>
+
+<script src="js/ocr-pdf.js"></script>
+
+</body>
+
+</html>

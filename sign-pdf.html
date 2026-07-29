@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sign PDF</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/tools.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">
+
+<i class="fa-solid fa-signature"></i>
+
+PDF Master
+
+</div>
+
+</header>
+
+<section class="tool-hero">
+
+<h1>Sign PDF</h1>
+
+<p>
+
+Draw or upload your signature and add it to your PDF.
+
+</p>
+
+</section>
+
+<section class="upload-section">
+
+<div class="drop-area" id="dropArea">
+
+<i class="fa-solid fa-file-pdf"></i>
+
+<h2>Select PDF</h2>
+
+<p>or Drag & Drop PDF Here</p>
+
+<button id="browseBtn" class="pdf-btn">
+
+Select PDF
+
+</button>
+
+<input type="file" id="upload" accept=".pdf" hidden>
+
+</div>
+
+</section>
+
+<section id="fileList">
+
+<div class="empty">
+
+No PDF Selected
+
+</div>
+
+</section>
+
+<section class="signature-section">
+
+<h2>Your Signature</h2>
+
+<canvas id="signatureCanvas" width="500" height="180"></canvas>
+
+<div class="signature-buttons">
+
+<button id="clearBtn" class="pdf-btn">
+Clear Signature
+</button>
+
+</div>
+
+</section>
+
+<section class="pdf-action">
+
+<button id="signBtn" class="pdf-btn">
+
+<i class="fa-solid fa-signature"></i>
+
+Sign PDF
+
+</button>
+
+</section>
+
+<script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+
+<script src="js/sign-pdf.js"></script>
+
+</body>
+
+</html>

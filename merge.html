@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Merge PDF - PDF Master</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/tools.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<i class="fa-solid fa-file-pdf"></i>
+
+<span>PDF Master</span>
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="#">All Tools</a></li>
+
+<li><a href="#">Pricing</a></li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+<a href="#" class="signup">
+
+Login
+
+</a>
+
+</nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="tool-hero">
+
+<h1>Merge PDF Files</h1>
+
+<p>
+
+Combine PDF files in the order you want with the easiest PDF merger.
+
+</p>
+
+</section>
+
+<!-- ================= UPLOAD ================= -->
+
+<section class="upload-section">
+
+<div id="dropArea" class="drop-area">
+
+<i class="fa-solid fa-cloud-arrow-up"></i>
+
+<h2>Select PDF Files</h2>
+
+<p>or Drag & Drop PDF Files Here</p>
+
+<button id="browseBtn">
+
+Select PDF Files
+
+</button>
+
+<input type="file" id="upload" accept=".pdf" hidden>
+
+</div>
+
+</section>
+
+<!-- ================= FILE LIST ================= -->
+
+<section class="files">
+
+<h2>Selected Files</h2>
+
+<div id="fileList">
+
+<div class="empty">
+
+No PDF selected.
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= ACTION ================= -->
+
+<section class="action">
+
+ <button id="mergeBtn">
+    <i class="fa-solid fa-object-group"></i>
+    Merge PDF
+</button>
+
+</section>
+
+<!-- ================= FEATURES ================= -->
+
+<section class="tool-info">
+
+<div class="info-card">
+
+<i class="fa-solid fa-bolt"></i>
+
+<h3>Fast</h3>
+
+<p>Merge PDFs within seconds.</p>
+
+</div>
+
+<div class="info-card">
+
+<i class="fa-solid fa-lock"></i>
+
+<h3>Secure</h3>
+
+<p>Your files never leave your browser.</p>
+
+</div>
+
+<div class="info-card">
+
+<i class="fa-solid fa-mobile-screen"></i>
+
+<h3>Responsive</h3>
+
+<p>Works on desktop and mobile.</p>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<p>
+
+© 2026 PDF Master • All Rights Reserved
+
+</p>
+
+</footer>
+
+<script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+<script src="js/merge.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PDF to JPG</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/tools.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<i class="fa-solid fa-file-pdf"></i>
+
+PDF Master
+
+</div>
+
+</nav>
+
+</header>
+
+<section class="tool-hero">
+
+<h1>PDF to JPG</h1>
+
+<p>
+
+Convert every page of your PDF into high-quality JPG images.
+
+</p>
+
+</section>
+
+<section class="upload-section">
+
+<div class="drop-area" id="dropArea">
+
+<i class="fa-solid fa-file-pdf"></i>
+
+<h2>Select PDF File</h2>
+
+<p>or Drag & Drop PDF Here</p>
+
+<button id="browseBtn">
+
+Select PDF
+
+</button>
+
+<input
+type="file"
+id="upload"
+accept=".pdf"
+hidden>
+
+</div>
+
+</section>
+
+<section class="files">
+
+<div id="previewContainer"></div>
+
+</section>
+
+<section class="action">
+
+ <section class="action">
+    <button id="convertBtn">
+        Convert to JPG
+    </button>
+</section>
+
+</section>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+
+<script>
+pdfjsLib.GlobalWorkerOptions.workerSrc =
+"https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+</script>
+
+<script src="js/pdf-to-jpg.js"></script>
+
+</body>
+
+</html>

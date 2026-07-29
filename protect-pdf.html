@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Protect PDF</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/tools.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">
+<i class="fa-solid fa-lock"></i>
+PDF Master
+</div>
+
+</header>
+
+<section class="tool-hero">
+
+<h1>Protect PDF</h1>
+
+<p>
+Add a password to protect your PDF document.
+</p>
+
+</section>
+
+<section class="upload-section">
+
+<div class="drop-area" id="dropArea">
+
+<i class="fa-solid fa-file-pdf"></i>
+
+<h2>Select PDF File</h2>
+
+<p>or Drag & Drop PDF Here</p>
+
+<button id="browseBtn" class="pdf-btn">
+
+Select PDF
+
+</button>
+
+<input
+type="file"
+id="upload"
+accept=".pdf"
+hidden>
+
+</div>
+
+</section>
+
+<section id="fileList">
+
+<div class="empty">
+
+No PDF Selected
+
+</div>
+
+</section>
+
+<section class="pdf-options">
+
+<label>Password</label>
+
+<input
+type="password"
+id="password"
+placeholder="Enter Password">
+
+<label style="margin-top:20px;">Confirm Password</label>
+
+<input
+type="password"
+id="confirmPassword"
+placeholder="Confirm Password">
+
+</section>
+
+<section class="pdf-action">
+
+<button id="protectBtn" class="pdf-btn">
+
+<i class="fa-solid fa-lock"></i>
+
+Protect PDF
+
+</button>
+
+</section>
+
+<script src="js/protect-pdf.js"></script>
+
+</body>
+
+</html>

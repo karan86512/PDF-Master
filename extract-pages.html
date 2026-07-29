@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Extract PDF Pages</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/tools.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">
+
+<i class="fa-solid fa-file-pdf"></i>
+
+PDF Master
+
+</div>
+
+</header>
+
+<section class="tool-hero">
+
+<h1>Extract PDF Pages</h1>
+
+<p>
+
+Extract selected pages from your PDF instantly.
+
+</p>
+
+</section>
+
+<section class="upload-section">
+
+<div class="drop-area" id="dropArea">
+
+<i class="fa-solid fa-file-pdf"></i>
+
+<h2>Select PDF File</h2>
+
+<p>or Drag & Drop PDF Here</p>
+
+<button id="browseBtn" class="pdf-btn">
+
+Select PDF
+
+</button>
+
+<input
+type="file"
+id="upload"
+accept=".pdf"
+hidden>
+
+</div>
+
+</section>
+
+<section id="fileList">
+
+<div class="empty">
+
+No PDF Selected
+
+</div>
+
+</section>
+
+<section class="pdf-options">
+
+<label>
+
+Pages to Extract
+
+</label>
+
+<input
+type="text"
+id="pageRange"
+placeholder="Example: 1,3,5 or 2-6">
+
+</section>
+
+ <section class="pdf-action">
+
+    <button id="extractBtn" class="pdf-btn">
+
+        <i class="fa-solid fa-copy"></i>
+
+        Extract Pages
+
+    </button>
+
+</section>
+
+<script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+
+<script src="js/extract-pages.js"></script>
+
+</body>
+
+</html>
