@@ -2,125 +2,276 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-
 <url>
-
-<loc>https://yourdomain.com/</loc>
-
+<loc>https://pdf-master.karanmorehub.com/</loc>
 <priority>1.0</priority>
-
 </url>
 
-
+<url>
+<loc>https://pdf-master.karanmorehub.com/ocr-pdf.html</loc>
+<priority>0.8</priority>
+</url>
 
 <url>
+<loc>https://pdf-master.karanmorehub.com/page-numbers.html</loc>
+<priority>0.8</priority>
+</url>
 
-<loc>https://yourdomain.com/about.html</loc>
+<url>
+<loc>https://pdf-master.karanmorehub.com/pdf-forms.html</loc>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/pdf-to-jpg.html</loc>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/press.html</loc>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/privacy.html</loc>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/protect-pdf-blog.html</loc>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/protect-pdf.html</loc>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/reduce-pdf-blog.html</loc>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/remove-pages.html</loc>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/rotate.html</loc>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/scan-to-pdf.html</loc>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/security.html</loc>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/sign-pdf-blog.html</loc>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/sign-pdf.html</loc>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/signup.html</loc>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/split.html</loc>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/terms.html</loc>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/tools.html</loc>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/translate-pdf-blog.html</loc>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/unlock-pdf.html</loc>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/watermark.html</loc>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://pdf-master.karanmorehub.com/word-to-pdf.html</loc>
+<priority>0.9</priority>
+</url>
+
+  <url>
+
+<loc>https://pdf-master.karanmorehub.com/about.html</loc>
 
 <priority>0.8</priority>
 
 </url>
 
 
-
 <url>
 
-<loc>https://yourdomain.com/features.html</loc>
+<loc>https://pdf-master.karanmorehub.com/blog.html</loc>
 
 <priority>0.8</priority>
 
 </url>
 
 
+<url>
+
+<loc>https://pdf-master.karanmorehub.com/careers.html</loc>
+
+<priority>0.6</priority>
+
+</url>
+
 
 <url>
 
-<loc>https://yourdomain.com/pricing.html</loc>
+<loc>https://pdf-master.karanmorehub.com/contact.html</loc>
 
 <priority>0.8</priority>
 
 </url>
 
 
+<url>
+
+<loc>https://pdf-master.karanmorehub.com/cookies.html</loc>
+
+<priority>0.5</priority>
+
+</url>
+
 
 <url>
 
-<loc>https://yourdomain.com/blog.html</loc>
+<loc>https://pdf-master.karanmorehub.com/convert-pdf-blog.html</loc>
+
+<priority>0.7</priority>
+
+</url>
+
+
+<url>
+
+<loc>https://pdf-master.karanmorehub.com/crop-pdf.html</loc>
+
+<priority>0.8</priority>
+
+</url>
+
+
+<url>
+
+<loc>https://pdf-master.karanmorehub.com/extract-pages.html</loc>
+
+<priority>0.8</priority>
+
+</url>
+
+
+<url>
+
+<loc>https://pdf-master.karanmorehub.com/faq.html</loc>
+
+<priority>0.7</priority>
+
+</url>
+
+
+<url>
+
+<loc>https://pdf-master.karanmorehub.com/feature.html</loc>
+
+<priority>0.8</priority>
+
+</url>
+
+
+<url>
+
+<loc>https://pdf-master.karanmorehub.com/html-to-pdf.html</loc>
 
 <priority>0.9</priority>
 
 </url>
 
 
-
 <url>
 
-<loc>https://yourdomain.com/faq.html</loc>
+<loc>https://pdf-master.karanmorehub.com/index.html</loc>
 
-<priority>0.7</priority>
+<priority>1.0</priority>
 
 </url>
 
 
-
 <url>
 
-<loc>https://yourdomain.com/contact.html</loc>
+<loc>https://pdf-master.karanmorehub.com/jpg-to-pdf.html</loc>
 
-<priority>0.8</priority>
+<priority>0.9</priority>
 
 </url>
 
 
-
 <url>
 
-<loc>https://yourdomain.com/careers.html</loc>
-
-<priority>0.6</priority>
-
-</url>
-
-
-
-<url>
-
-<loc>https://yourdomain.com/press.html</loc>
-
-<priority>0.6</priority>
-
-</url>
-
-
-
-<url>
-
-<loc>https://yourdomain.com/privacy-policy.html</loc>
+<loc>https://pdf-master.karanmorehub.com/login.html</loc>
 
 <priority>0.5</priority>
 
 </url>
 
 
-
 <url>
 
-<loc>https://yourdomain.com/terms.html</loc>
+<loc>https://pdf-master.karanmorehub.com/forgot-password.html</loc>
 
-<priority>0.5</priority>
+<priority>0.4</priority>
 
 </url>
 
 
+<url>
+
+<loc>https://pdf-master.karanmorehub.com/merge.html</loc>
+
+<priority>0.9</priority>
+
+</url>
+
 
 <url>
 
-<loc>https://yourdomain.com/security.html</loc>
+<loc>https://pdf-master.karanmorehub.com/merge-pdf-blog.html</loc>
 
 <priority>0.7</priority>
 
 </url>
-
-
 
 </urlset>
