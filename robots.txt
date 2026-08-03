@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://pdf-master.karanmorehub.com/sitemap.xml
